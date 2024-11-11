@@ -60,3 +60,7 @@
     font-size: 65px;
     font-family: var(--playfair-display);
 }
+
+.header__logo span {
+  color: var(--secondary-color);
+}
