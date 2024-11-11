@@ -8,6 +8,7 @@
   <title>Tokyo Tide</title>
 </head>
 <body>
+  <!-- Start Nav -->
   <header>
     <nav class="header__nav">
       <div class="header__logo">
@@ -15,6 +16,7 @@
         <div class="header__logo-overlay"></div>
       </div>
 
+      <!-- Desktop Menu -->
       <ul class="header__menu">
         <li>
           <a href="#menu">Menu</a>
@@ -33,6 +35,7 @@
         </li>
       </ul>
 
+      <!-- Mobile Menu -->
       <ul class="header__menu-mobile">
         <li>
           <img src="assets/menu.svg" alt="menu">
@@ -40,7 +43,9 @@
       </ul>
     </nav>
   </header>
+  <!-- End Nav -->
   
+  <!-- Start Hero -->
   <section class="hero">
     <div class="hero-image">
       <img src="assets/sushi-1.png" alt="sushi">
@@ -54,7 +59,7 @@
 
     <div class="hero-content">
       <div class="hero-content-info">
-        <h1>Experience the taste of Japanese food</h1>
+        <h1>Authentic Japanese Sushi</h1>
         <p>
           Fresh fish on warm rice,</br >
           seaweed wraps the ocean’s taste,</br >
@@ -84,7 +89,9 @@
       </div>
     </div>
   </section>
+  <!-- End Hero -->
 
+  <!-- Start About -->
   <section class="about-us" id="about-us">
     <div class="about-us__image">
       <div class="about-us__image-sushi3">
@@ -108,6 +115,46 @@
       <p class="sushi__description">We offer an exquisite dining experience, where masterfully crafted sushi is paired with the finest seasonal ingredients. In an elegant, tranquil atmosphere, each dish celebrates Japanese culinary artistry, promising a memorable journey for the senses.</p>
     </div>
   </section>
+  <!-- End About -->
+
+  <!-- Start Menu -->
+  <section class="popular-foods" id="menu">
+    <h2 class="popular-foods__title">Popular Food / 人気</h2>
+    <div class="popular-foods__filters sushi__hide-scrollbar">
+      <button class="popular-foods__filter-btn active">
+        All
+      </button>
+      <button class="popular-foods__filter-btn">
+        <img src="assets/sushi-9.png" alt="sushi 9" />
+        Sushi
+      </button>
+      <button class="popular-foods__filter-btn">
+        <img src="assets/sushi-8.png" alt="sushi 8" />
+        Ramen
+      </button>
+      <button class="popular-foods__filter-btn">
+        <img src="assets/sushi-7.png" alt="sushi 7" />
+        Udon
+      </button>
+      <button class="popular-foods__filter-btn">
+        <img src="assets/sushi-6.png" alt="sushi 6" />
+        Danggo
+      </button>
+      <button class="popular-foods__filter-btn">
+        Others
+      </button>
+    </div>
+
+    <div class="popular-foods__catalog">
+      <!-- JS -->
+    </div>
+
+    <button class="popular-foods__button">
+      Explore Food
+      <img src="assets/arrow-right.svg" alt="arrow-right" />
+    </button>
+  </section>
+  <!-- End Menu -->
 
   <script src="js/script.js" type="module"></script>
 </body>
